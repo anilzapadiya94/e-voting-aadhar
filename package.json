@@ -1,0 +1,30 @@
+{
+  "name": "techdot",
+  "version": "1.0.0",
+  "description": "Aadhaar Based voting system using blockchain technology Project implemented as part of Rajasthan Hackathron",
+  "main": "index.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.16.3",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "password-hash": "^1.2.2",
+    "request": "^2.88.2",
+    "solc": "^0.6.6",
+    "web3": "^1.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanattaori/techdot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanattaori/techdot/issues"
+  },
+  "homepage": "https://github.com/sanattaori/techdot#readme"
+}
