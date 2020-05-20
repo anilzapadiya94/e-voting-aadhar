@@ -29,18 +29,18 @@ var phone;
 // DataBase 
 
 var connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "blockvotes"
+  host: "sql12.freemysqlhosting.net",
+  user: "sql12342049",
+  password: "2f1b6xQkjA",
+  database: "sql12342049"
 });
 
 connection.connect(function(err){
   if(err){
-    console.log('Error connecting to Db');
-	res.status(500).send({ message: 'error'+err });
+    console.log('Error connecting to Db'+err);
+	//res.status(500).send({ message: 'error'+err });
     return;
-  }
+  } 
   console.log('Connection established');
 });
 
